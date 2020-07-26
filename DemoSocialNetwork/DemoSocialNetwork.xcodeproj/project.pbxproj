@@ -16,6 +16,16 @@
 		ED9A5A9224CD21290009B3C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9A5A9024CD21290009B3C7 /* LaunchScreen.storyboard */; };
 		ED9A5A9D24CD21290009B3C7 /* DemoSocialNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5A9C24CD21290009B3C7 /* DemoSocialNetworkTests.swift */; };
 		ED9A5AA824CD21290009B3C7 /* DemoSocialNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5AA724CD21290009B3C7 /* DemoSocialNetworkUITests.swift */; };
+		ED9A5AC024CD21850009B3C7 /* UIView+centerY.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5AB624CD21850009B3C7 /* UIView+centerY.swift */; };
+		ED9A5AC124CD21850009B3C7 /* UIView+centerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5AB724CD21850009B3C7 /* UIView+centerX.swift */; };
+		ED9A5AC224CD21850009B3C7 /* UIView+bottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5AB824CD21850009B3C7 /* UIView+bottom.swift */; };
+		ED9A5AC324CD21850009B3C7 /* UIView+height.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5AB924CD21850009B3C7 /* UIView+height.swift */; };
+		ED9A5AC424CD21850009B3C7 /* UIView+trailing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5ABA24CD21850009B3C7 /* UIView+trailing.swift */; };
+		ED9A5AC524CD21850009B3C7 /* UIView+top.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5ABB24CD21850009B3C7 /* UIView+top.swift */; };
+		ED9A5AC624CD21850009B3C7 /* UIView+add.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5ABC24CD21850009B3C7 /* UIView+add.swift */; };
+		ED9A5AC724CD21850009B3C7 /* UIView+leading.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5ABD24CD21850009B3C7 /* UIView+leading.swift */; };
+		ED9A5AC824CD21850009B3C7 /* UIView+width.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5ABE24CD21850009B3C7 /* UIView+width.swift */; };
+		ED9A5AC924CD21850009B3C7 /* UIView+padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9A5ABF24CD21850009B3C7 /* UIView+padding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		ED9A5AA324CD21290009B3C7 /* DemoSocialNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSocialNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9A5AA724CD21290009B3C7 /* DemoSocialNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSocialNetworkUITests.swift; sourceTree = "<group>"; };
 		ED9A5AA924CD21290009B3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9A5AB624CD21850009B3C7 /* UIView+centerY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+centerY.swift"; sourceTree = "<group>"; };
+		ED9A5AB724CD21850009B3C7 /* UIView+centerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+centerX.swift"; sourceTree = "<group>"; };
+		ED9A5AB824CD21850009B3C7 /* UIView+bottom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+bottom.swift"; sourceTree = "<group>"; };
+		ED9A5AB924CD21850009B3C7 /* UIView+height.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+height.swift"; sourceTree = "<group>"; };
+		ED9A5ABA24CD21850009B3C7 /* UIView+trailing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+trailing.swift"; sourceTree = "<group>"; };
+		ED9A5ABB24CD21850009B3C7 /* UIView+top.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+top.swift"; sourceTree = "<group>"; };
+		ED9A5ABC24CD21850009B3C7 /* UIView+add.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+add.swift"; sourceTree = "<group>"; };
+		ED9A5ABD24CD21850009B3C7 /* UIView+leading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+leading.swift"; sourceTree = "<group>"; };
+		ED9A5ABE24CD21850009B3C7 /* UIView+width.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+width.swift"; sourceTree = "<group>"; };
+		ED9A5ABF24CD21850009B3C7 /* UIView+padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+padding.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,7 @@
 		ED9A5A8124CD21270009B3C7 /* DemoSocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				ED9A5AB524CD21850009B3C7 /* UIKit+Constraints */,
 				ED9A5A8224CD21270009B3C7 /* AppDelegate.swift */,
 				ED9A5A8424CD21270009B3C7 /* SceneDelegate.swift */,
 				ED9A5A8624CD21270009B3C7 /* ViewController.swift */,
@@ -129,6 +150,23 @@
 				ED9A5AA924CD21290009B3C7 /* Info.plist */,
 			);
 			path = DemoSocialNetworkUITests;
+			sourceTree = "<group>";
+		};
+		ED9A5AB524CD21850009B3C7 /* UIKit+Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A5AB624CD21850009B3C7 /* UIView+centerY.swift */,
+				ED9A5AB724CD21850009B3C7 /* UIView+centerX.swift */,
+				ED9A5AB824CD21850009B3C7 /* UIView+bottom.swift */,
+				ED9A5AB924CD21850009B3C7 /* UIView+height.swift */,
+				ED9A5ABA24CD21850009B3C7 /* UIView+trailing.swift */,
+				ED9A5ABB24CD21850009B3C7 /* UIView+top.swift */,
+				ED9A5ABC24CD21850009B3C7 /* UIView+add.swift */,
+				ED9A5ABD24CD21850009B3C7 /* UIView+leading.swift */,
+				ED9A5ABE24CD21850009B3C7 /* UIView+width.swift */,
+				ED9A5ABF24CD21850009B3C7 /* UIView+padding.swift */,
+			);
+			path = "UIKit+Constraints";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +300,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9A5AC124CD21850009B3C7 /* UIView+centerX.swift in Sources */,
 				ED9A5A8D24CD21270009B3C7 /* DemoSocialNetwork.xcdatamodeld in Sources */,
+				ED9A5AC424CD21850009B3C7 /* UIView+trailing.swift in Sources */,
+				ED9A5AC624CD21850009B3C7 /* UIView+add.swift in Sources */,
+				ED9A5AC224CD21850009B3C7 /* UIView+bottom.swift in Sources */,
+				ED9A5AC324CD21850009B3C7 /* UIView+height.swift in Sources */,
+				ED9A5AC024CD21850009B3C7 /* UIView+centerY.swift in Sources */,
+				ED9A5AC724CD21850009B3C7 /* UIView+leading.swift in Sources */,
 				ED9A5A8724CD21270009B3C7 /* ViewController.swift in Sources */,
+				ED9A5AC824CD21850009B3C7 /* UIView+width.swift in Sources */,
 				ED9A5A8324CD21270009B3C7 /* AppDelegate.swift in Sources */,
+				ED9A5AC524CD21850009B3C7 /* UIView+top.swift in Sources */,
+				ED9A5AC924CD21850009B3C7 /* UIView+padding.swift in Sources */,
 				ED9A5A8524CD21270009B3C7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
